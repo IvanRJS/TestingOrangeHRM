@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="935ab1a6c69ff96f2874fa0edd6db0223836c18638be6af8807782cd25a4fb5e.html">Aplicativo Orangehr</a></span>
+                > <span class="truncate-60"><a
+                    href="45b1a74a6f6f9bd27d156a9375e14c5ef696401ba1aa0a6bd88ece52442d840d.html">Agregar un empleado </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-11-2019 20:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Aplicativo Orangehr </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                como usuario quiero ingresar al sitio de orangehr
+a agregar un empleado.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="6cd8108837ebd42cf72625d3263801bd4ae79b9208047637d9f204c17e2c716c.html">Tag0
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Agregar un empleado
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Illegal monitor state exception">
+                            Illegal monitor state exception
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.IllegalMonitorStateException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    co.com.choucair.certification.orangehr.tasks.LlenarDatos.waitLoad(LlenarDatos.java
+                                    :94) <br>
+                                    co.com.choucair.certification.orangehr.tasks.LlenarDatos.performAs(LlenarDatos.java
+                                    :34) <br>
+                                    co.com.choucair.certification.orangehr.stepdefinitions.OrangehrStepDefinitions.elRealizaElIngresoDelRegistroEnLaAplicacion(OrangehrStepDefinitions.java
+                                    :31) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5105867392224835528.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6012904a6d89cdb25c6b9d33d1aed2f54e3e746b33c2c34d814121db34089304.png" title="Dado que Ivan quiere ingresar al sitio de orangehr" width="1367"/>
+                <img src="6012904a6d89cdb25c6b9d33d1aed2f54e3e746b33c2c34d814121db34089304.png" title="Ivan opens the Orangehr login page" width="1367"/>
+                <img src="54342fdece678de44f6b4f3fe03c70a554446c774a949da56697dc1e36df5013.png" title="Cuando el realiza el ingreso del registro en la aplicacion
+| first_name | middle_name | last_name | location | other_id | date_of_birth | marital_status | gender | nacionality | driver_license | license_expiry | nick_name | military_service | smoker | blood_group | hobbies | region | fte | temporary_region |
+| Jhon | will | Hayes | German Regional HQ | 123 | 1900-02-08 | Single | Male | Afghan | 0001 | 2020-02-08 | wick | no | Smoker | AB | Movies | Region-2 | 0.75 | Sub unit-2 |" width="1367"/>
+                <img src="03cdca30e1863105394991828a17512eb472e357b67f96ae423b87c518bc30bd.png" title="Ivan clicks on boton lateral PIM" width="1367"/>
+                <img src="03cdca30e1863105394991828a17512eb472e357b67f96ae423b87c518bc30bd.png" title="Ivan clicks on boton lateral PIM" width="1367"/>
+                <img src="316ce931e16400c8b8c2948047e33f7de2a67be09ed9ca4c21d64b409ecd3d2a.png" title="Ivan clicks on boton lateral PIM" width="1367"/>
+                <img src="ae7fe514f697b9fbe27330837eaf9475fb9afdc167ce42665026e802fbed0f27.png" title="Ivan clicks on boton lateral para agregar nuevo empleado" width="1367"/>
+                <img src="4e4fb49752d26bbfadabf6a2dc1a899ac0bf9d0cdb031aa205a0d8dfbbec57cc.png" title="Ivan clicks on boton lateral para agregar nuevo empleado" width="1367"/>
+                <img src="dcd7182e1f0a363e1bb99d1e540ac1bf6eab8f843a6c7ea40115058472cb0e4d.png" title="Ivan clicks on etiqueta para el campo de primer nombre" width="1367"/>
+                <img src="7c720336c0d877ad47258b0f798288656e3d42d169884f5a6e2d13887925dc41.png" title="Ivan clicks on etiqueta para el campo de primer nombre" width="1367"/>
+                <img src="258d41c4f79fd6adbcfc8a6194e4e6b7b6ecfdb05b5ec51ae4c1a1930d5c9b98.png" title="Ivan enters 'Jhon' into area para ingresar el primer nombre" width="1367"/>
+                <img src="e0d2cedbe9ebf21c2336d96e377949524d38b801f283e570781126726343a055.png" title="Ivan enters 'Jhon' into area para ingresar el primer nombre" width="1367"/>
+                <img src="b2bf4ebc196089f3b0b7a27b72176cddd3fca482ccb581aa77cda40133c27b41.png" title="Ivan clicks on etiqueta para el campo de segundo nombre" width="1367"/>
+                <img src="7f0c0b8ec48e799ed31abe0f6dcf39be89a6d7035c3d407ef2edd2e8d4f4f459.png" title="Ivan clicks on etiqueta para el campo de segundo nombre" width="1367"/>
+                <img src="24bdeecf8b1ac77f3f4518a2ec3bb9bb3aab5eef5a30fa112e84492d9c6f2f4c.png" title="Ivan enters 'will' into area para ingresar el segundo nombre" width="1367"/>
+                <img src="38d26ad16d5eb55bbbf916992092ebd4e1311a1521e3c24c8c3a419737f3387b.png" title="Ivan enters 'will' into area para ingresar el segundo nombre" width="1367"/>
+                <img src="5893eceebf27cb1ebaee76e4eb8b4d6e5205155aef2b2bea90980cc95722bb60.png" title="Ivan clicks on etiqueta para el campo de apellido" width="1367"/>
+                <img src="268251bbb6a313b4018962feb4208ae4b28afedd352e32bd97e0b27206aa1b11.png" title="Ivan clicks on etiqueta para el campo de apellido" width="1367"/>
+                <img src="a873b55ce08b231fcb8f166c93bd169de54dc805bd6448561a7e63ff0ae85cfe.png" title="Ivan enters 'Hayes' into area para ingresar el apellido" width="1367"/>
+                <img src="a71da51ceecd8a8f9410dcc0546ef13c26290aab474ca1d4fd5002ab407a377e.png" title="Ivan enters 'Hayes' into area para ingresar el apellido" width="1367"/>
+                <img src="8ed0ace510fefd2c7691007fd7190a63765de70524c79634b88c0972d31c54ca.png" title="Ivan clicks on select para desplegar las opciones de localizacion" width="1367"/>
+                <img src="6d9837f36655bcba1ef577e152306d91665c348037a731a8c6a4329aeeb421f1.png" title="Ivan clicks on select para desplegar las opciones de localizacion" width="1367"/>
+                <img src="b531cf9b619d0fc90132370513b7c075492f9acdfe1a336739cadd9277d7ab03.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="de69a3e92993f1af6276c836acc900c4171c2e48baa754cca86415d217c2b3b5.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="de69a3e92993f1af6276c836acc900c4171c2e48baa754cca86415d217c2b3b5.png" title="Ivan clicks on boton para guardar los datos en el modal de agregar empleado" width="1367"/>
+                <img src="e18b4d3c311a33f15298d61896bcacbc1560991a876d3ca9d0dbdc939d93e02d.png" title="Ivan clicks on boton para guardar los datos en el modal de agregar empleado" width="1367"/>
+                <img src="9c1af4055c70b4bbd644243dcea1d3ffff3dddec904539c1d45f86949524c042.png" title="Ivan clicks on etiqueta para el campo otro id" width="1367"/>
+                <img src="7fc280bc4e64f9c30fb53182c7e10125e37e04d4f5d63f09dae3d6864a6459fb.png" title="Ivan clicks on etiqueta para el campo otro id" width="1367"/>
+                <img src="d00b31e3d9d9a7d326ad45b213e4647c622efacd671d68dbffc2c6ef26fb201a.png" title="Ivan enters '123' into area para ingresar otro id" width="1367"/>
+                <img src="20bf898a29008ae34de19a1199c31009bcfaab78ab69614e74d44ea5c77445e6.png" title="Ivan enters '123' into area para ingresar otro id" width="1367"/>
+                <img src="153d88255cc28ba3c5eec86b078d0d49cf2f1f6f7d296cc0ea67dab8e3a5f537.png" title="Ivan clicks on etiqueta para el campo fecha de nacimiento" width="1367"/>
+                <img src="00bbfb8a24feae19c2e646aae77cfbcc779d3c84ec89ecdb3ad9470d94733ff5.png" title="Ivan clicks on etiqueta para el campo fecha de nacimiento" width="1367"/>
+                <img src="7e50c7af8ded7cb53de1002c59967d049877632b2119b0e1914d01a25471aa79.png" title="Ivan enters '1900-02-08' into area para ingresar La fecha de nacimiento" width="1367"/>
+                <img src="ab4b1c99040f25f096bfaa800dc1bb4f8195906af0b5279521d735e1f58d9a2e.png" title="Ivan enters '1900-02-08' into area para ingresar La fecha de nacimiento" width="1367"/>
+                <img src="4839b1188f802528927e040b57de90ffa3f7c514fd68f2fa3a0fdcf6e5a9b79c.png" title="Ivan clicks on select para desplegar las opciones de estado marital" width="1367"/>
+                <img src="48bf63f375a2737a9b8e77cdf690034b29233abd5231ef6a79d56e6c6a822281.png" title="Ivan clicks on select para desplegar las opciones de estado marital" width="1367"/>
+                <img src="ab1c3868a74c07074809a6ad61e2a983a8db3b450a41515264a136b40681ed87.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="5fda5eb95d0ceb88741c84ccf45fb71a3bc559bca4a4b278abc56bd454a08d43.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="5fda5eb95d0ceb88741c84ccf45fb71a3bc559bca4a4b278abc56bd454a08d43.png" title="Ivan clicks on etiqueta para seleccionar genero masculino" width="1367"/>
+                <img src="58d130f4defbad6523633b5a67d209dc8738c99c748d1aa2f7c02569aa35884c.png" title="Ivan clicks on etiqueta para seleccionar genero masculino" width="1367"/>
+                <img src="173adbdb7fa3fc47fe81003ec90ceeaf5839e85d7fc0b199c8d65c9aa6851691.png" title="Ivan clicks on select para desplegar la opciones de nacionalidad" width="1367"/>
+                <img src="5346d48b53d8d96de8476d8ead981cea264abd4ccc3e336ac0f86f1077815660.png" title="Ivan clicks on select para desplegar la opciones de nacionalidad" width="1367"/>
+                <img src="501d1ef2073ceebbba67e11760c53c1d4e733869c9d73d54387d14627172bbcb.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="6f6d2fa99b5e0c3f1b5f0e777a82236f810bdc6d68f2b3d70ab7fabef92bcf18.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="6f6d2fa99b5e0c3f1b5f0e777a82236f810bdc6d68f2b3d70ab7fabef92bcf18.png" title="Ivan clicks on etiqueta para seleccionar licencia de conduccion" width="1367"/>
+                <img src="6a7ee2be7c422a42c9d21f08dea42a6c37af5d03170b1d6a02881f74b53e3f11.png" title="Ivan clicks on etiqueta para seleccionar licencia de conduccion" width="1367"/>
+                <img src="e96048b640b1313a3235ce8c16ebdbede365853daeaa9483fb5bcbd91138cb77.png" title="Ivan enters '0001' into area para ingresar el numero de licencia de conduccion" width="1367"/>
+                <img src="ceca39954f537183c9e56dad94d69526fd69b30928f6f93daa4683725fca996f.png" title="Ivan enters '0001' into area para ingresar el numero de licencia de conduccion" width="1367"/>
+                <img src="0ba333f055eaccedecb20f124c21a928b765c79737d2ac76efde3e666fc953b4.png" title="Ivan clicks on etiqueta para seleccionar fecha de vencimiento de la licencia de conduccion" width="1367"/>
+                <img src="ceca39954f537183c9e56dad94d69526fd69b30928f6f93daa4683725fca996f.png" title="Ivan clicks on etiqueta para seleccionar fecha de vencimiento de la licencia de conduccion" width="1367"/>
+                <img src="0ba333f055eaccedecb20f124c21a928b765c79737d2ac76efde3e666fc953b4.png" title="Ivan enters '2020-02-08' into area para ingresar la fecha de vencimiento de la licencia de conduccion" width="1367"/>
+                <img src="8ff099c9a6d60232554f97782f27ea0705ae60d4c31fcca370213c212231096d.png" title="Ivan enters '2020-02-08' into area para ingresar la fecha de vencimiento de la licencia de conduccion" width="1367"/>
+                <img src="8ad396889bce798359bec71749acbff5c0db892f788b93a8544e84b56ccbd548.png" title="Ivan clicks on etiqueta para seleccionar el nick name" width="1367"/>
+                <img src="fe718a7652e9ea6df58bc58bc4f52225b9b9a9ab0d3d024f34f0b412ca4196b2.png" title="Ivan clicks on etiqueta para seleccionar el nick name" width="1367"/>
+                <img src="085c5d3efa86250d1ebf2beff23dc746da6c13448f051fd196803625203c35fa.png" title="Ivan enters 'wick' into area para ingresar el nick name" width="1367"/>
+                <img src="979411edc4bf02790a4fafde929966889e524b508af28992326820ba21a59596.png" title="Ivan enters 'wick' into area para ingresar el nick name" width="1367"/>
+                <img src="3dcf0269f8b0d42e8849b94f7893fa24153841a3ebe088f5dc773346efe60544.png" title="Ivan clicks on etiqueta para seleccionar servicio militar" width="1367"/>
+                <img src="1139f83f750788581f24a215fb43227aca287d22f501927a402040e499b4ab00.png" title="Ivan clicks on etiqueta para seleccionar servicio militar" width="1367"/>
+                <img src="4f3098ccd6e8cffbf5a37ec97fd63d784027ebfcf523a17c0d870c62f875f607.png" title="Ivan enters 'no' into area para ingresar informacion de servicio militar" width="1367"/>
+                <img src="867717837a88baef69aeb00173bfbb329d38a1f319342c1b39d154bc3d7bdc8c.png" title="Ivan enters 'no' into area para ingresar informacion de servicio militar" width="1367"/>
+                <img src="e8e6952218933f2e7708e0c6f63b13320a62eadddba11d08ee7461cf034c3e09.png" title="Ivan clicks on etiqueta para seleccionar si es fumador" width="1367"/>
+                <img src="8762f2d298462f4da157bd65397f55a4edf8792c93336ff6435f3b8923f158e2.png" title="Ivan clicks on etiqueta para seleccionar si es fumador" width="1367"/>
+                <img src="8762f2d298462f4da157bd65397f55a4edf8792c93336ff6435f3b8923f158e2.png" title="Ivan clicks on select para desplegar las opciones de grupo sanguineo" width="1367"/>
+                <img src="3cbddfef32a647d509d398c005e0e31d16374ce3f5e9b1b1b2bc7b6074c00596.png" title="Ivan clicks on select para desplegar las opciones de grupo sanguineo" width="1367"/>
+                <img src="1a0bd40f11b266bcd798e04d7073c59ee057482d29773ea21cb604c6a84af417.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="084dfff14edb3f651d8ad5b1e295436619b6ecf50427678faa3bb5aab20081b5.png" title="Ivan clicks on #target" width="1367"/>
+                <img src="084dfff14edb3f651d8ad5b1e295436619b6ecf50427678faa3bb5aab20081b5.png" title="Ivan clicks on etiqueta para escribir los hobbies" width="1367"/>
+                <img src="96f2fa5687689afb4db7e68a3432e8fc5a8b7994fe76edb53c3d7a18b18e8e42.png" title="Ivan clicks on etiqueta para escribir los hobbies" width="1367"/>
+                <img src="dd711d187169c65e115926bfc2fa8411bf043d33171999424106d466bacfede6.png" title="Ivan enters 'Movies' into area para ingresar los hobbies" width="1367"/>
+                <img src="4bffd479f79faa065658b5d49a010bdf39c31589556db40a314bdfca47867651.png" title="Ivan enters 'Movies' into area para ingresar los hobbies" width="1367"/>
+                <img src="8db6058aa1e7da5dcea60d030d6071e46ca33abc5a6a4da6edec9c5c91ef8cb2.png" title="Ivan clicks on boton para avanzar a la parte 2 del formulario" width="1367"/>
+                <img src="2f79678d441b1a00c9b690534792b4b30d6294c220c9c92d6d5d1dbf72ea6840.png" title="Ivan clicks on boton para avanzar a la parte 2 del formulario: <span class='error-color'>ERROR</span>" width="1367"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

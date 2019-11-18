@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Aplicativo orangehr" skipped="0" tests="1" time="92.16" timestamp="2019-11-17 08:47:14"><testcase name="Agregar un empleado"><error type="java.lang.IllegalMonitorStateException"/><system-err>null&#13;
+co.com.choucair.certification.orangehr.tasks.LlenarDatos.waitLoad(LlenarDatos.java:94)&#13;
+co.com.choucair.certification.orangehr.tasks.LlenarDatos.performAs(LlenarDatos.java:34)&#13;
+co.com.choucair.certification.orangehr.stepdefinitions.OrangehrStepDefinitions.elRealizaElIngresoDelRegistroEnLaAplicacion(OrangehrStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
