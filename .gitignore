@@ -1,6 +1,5 @@
 # Default ignored files
 /workspace.xml
 .gradle
-build/
-**/build/
-*.png
+/build/
+/Target/
